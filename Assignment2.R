@@ -6,6 +6,11 @@
 # Prompt the user to enter a three digit positive number
 input_number <- readline(prompt = "Enter a 3 digit positive number: ")
 
+## Deweena: I think that putting comments above the code line is helpful
+## It would help me understand which code is doing what.
+## Maybe the commentary below can go above - that whay you may not need to put 
+## commentary on the side of the code
+
 # Check if the user input is numeric. If not, print an error message and quit.
 # Also checking whether user input is 3-digit and a positive number
 # If the number fulfills these conditions, checking whether the number is narcissistic.
@@ -36,4 +41,5 @@ if (is.na(input_number) | ((nchar(as.character(input_number))) != 3) | ((input_n
   
 }
 
+## Deweena: The code is elegant, very cool!
 
